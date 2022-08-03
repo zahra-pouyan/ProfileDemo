@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(242, 216, 216);
+  text-align: center;
+}
+
+.container {
+  margin-top: 20px;
+  width: 600px;
+  margin: 20px auto;
+}
+.about-me {
+  background-color: white;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 5px 5px rgb(226, 218, 218);
+}
+.profile {
+  width: 100px;
+  border-style: solid;
+  border-radius: 50%;
+}
+.header {
+  color: blue;
+}
+#see {
+  color: white;
+  background-color: blue;
+  padding: 0px 10px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.contact {
+  padding: 0;
+}
+a {
+  color: inherit;
+}
+.movie-poster {
+  width: 200px;
+}
+
+.link {
+  color: blue;
+  margin: 10px;
+}
+.film-title {
+  text-align: justify;
+  padding-left: 5px;
+}
+.movie {
+  display: flex;
+  flex-direction: row;
+}
